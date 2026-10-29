@@ -314,6 +314,7 @@ header {
 }
 .comm p {
   color: #808080;
+  word-spacing: 4px;
 }
 .comm button {
   padding: 12px;
@@ -324,8 +325,24 @@ button:hover {
 button:active {
   background-color: #f84646;
 }
-
-@media (max-width: 1024px) {
+@media (min-width: 1300px) {
+  .comm img {
+    min-width: 46%;
+  }
+  .comm p {
+    font-size: 18px;
+    word-spacing: 8px;
+  }
+  .comm h3 {
+    font-size: 72px;
+  }
+  .comm button {
+    width: 44%;
+    padding: 16px 0;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1200px) {
   .comm {
     min-width: 92%;
   }
