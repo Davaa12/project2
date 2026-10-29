@@ -219,7 +219,15 @@ header {
 .hero-items p {
   font-size: 18px;
 }
-
+@media (min-width: 1200px) {
+  .hero-lower {
+    gap: 5%;
+    line-height: 30px;
+  }
+  .hero-items {
+    margin-top: 24px;
+  }
+}
 @media (max-width: 1024px) {
   .hero-lower {
     column-gap: 60px;
@@ -330,8 +338,10 @@ button:active {
     min-width: 46%;
   }
   .comm p {
+    width: 80%;
     font-size: 18px;
     word-spacing: 8px;
+    line-height: 36px;
   }
   .comm h3 {
     font-size: 72px;
